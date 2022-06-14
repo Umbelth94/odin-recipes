@@ -3,6 +3,11 @@ body {
     background-color:rgb(124, 177, 178);
 }
 
+p {
+    font-size:20px;
+    font-family:"Palatino","Goudy Old Style", 'Calibri', Sans-serif;
+}
+
 /*Centers all the text on the main page*/
 #main-page{
     text-align: center;
