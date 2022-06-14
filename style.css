@@ -1,29 +1,35 @@
+/*Make the website background a nice khaki color*/
 body {
     background-color: khaki;
 }
 
+/*Centers all the text on the main page*/
 #main-page{
     text-align: center;
 }
 
+/*Gets rid of bullet points for centered list*/
 #recipes {
     list-style-type:none;
 }
 
+/*Makes all the page titles big and pretty*/
 h1 {
     font-family:"Brush Script MT","Caveat","Courier New",sans-serif;
     font-size:100px;
     text-align:center;
 }
+    /*Makes all the recipe page titles just a bit smaller*/
      .page-header{
         font-size:80px;
     }
 
+/*Centers and resizes all the photos*/
 .photo {
     display:block;
     margin-left:auto;
     margin-right:auto;
     width:500px;
-    height:auto;
+    height:750px;
 }
 
