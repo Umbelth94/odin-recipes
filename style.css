@@ -1,0 +1,29 @@
+body {
+    background-color: khaki;
+}
+
+#main-page{
+    text-align: center;
+}
+
+#recipes {
+    list-style-type:none;
+}
+
+h1 {
+    font-family:"Brush Script MT","Caveat","Courier New",sans-serif;
+    font-size:100px;
+    text-align:center;
+}
+     .page-header{
+        font-size:80px;
+    }
+
+.photo {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    height:auto;
+}
+
