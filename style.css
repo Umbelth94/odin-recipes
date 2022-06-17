@@ -22,7 +22,7 @@ p {
     text-align: center;
 }
 
-/*Gets rid of bullet points for centered list*/
+/*Creates and styles box for recipe links*/
 #recipes {
     list-style-type: none;
     border: 3px solid #000404;
@@ -31,9 +31,15 @@ p {
     padding: 25px;
 }
 
-a.recipe-link{
-    border:2px dotted black;
 
+a.recipe-link{
+    display: inline-block;
+    border: 5px double #7cb1b2;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 35px;
+    margin: 10px;
+    width: 400px;
 }
 
 /*Makes all the page titles big and pretty*/
