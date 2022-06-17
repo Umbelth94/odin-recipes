@@ -1,3 +1,12 @@
+/*Makes all boxes in the document into alternative box model.*/
+html {
+    box-sizing:border-box
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
 /*Make the website background a nice khaki color*/
 body {
     background-color:rgb(124, 177, 178);
@@ -15,7 +24,16 @@ p {
 
 /*Gets rid of bullet points for centered list*/
 #recipes {
-    list-style-type:none;
+    list-style-type: none;
+    border: 3px solid #000404;
+    border-radius: 15px;
+    background: gray;
+    padding: 25px;
+}
+
+a.recipe-link{
+    border:2px dotted black;
+
 }
 
 /*Makes all the page titles big and pretty*/
