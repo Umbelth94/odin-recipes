@@ -6,12 +6,12 @@ html {
     border-radius:15px;
     padding:100px;
 }
+    *, *:before, *:after {
+        box-sizing:inherit;
+    }
 
-*, *:before, *:after {
-    box-sizing:inherit;
-}
 
-/*Make the website background a nice khaki color*/
+/*Make the website background a nice ocean coral blue color*/
 body {
     background-color:rgb(124, 177, 178);
 }
@@ -22,8 +22,16 @@ p, ol, ul, li {
 }
 
 h2 {
+   height:80px;
+   padding:10px;
+   width:300px;
+   margin-left:auto;
+   margin-right:auto;
+    border:15px double black;
+    border-radius:15px;
     font-size:35px;
     text-align:center;
+    background-color:rgb(193 203 229 / 79%);
 }
 
 h3 {
