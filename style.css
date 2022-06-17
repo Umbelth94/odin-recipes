@@ -1,6 +1,7 @@
 /*Makes all boxes in the document into alternative box model.*/
 html {
-    box-sizing:border-box
+    box-sizing:border-box;
+    font-family:"Palatino","Goudy Old Style", 'Calibri', Sans-serif;
 }
 
 *, *:before, *:after {
@@ -12,9 +13,18 @@ body {
     background-color:rgb(124, 177, 178);
 }
 
-p {
-    font-size:25px;
-    font-family:"Palatino","Goudy Old Style", 'Calibri', Sans-serif;
+/*Standardises font size across website*/
+p, ol, ul, li {
+    font-size:20px;
+}
+
+h2 {
+    font-size:35px;
+    text-align:center;
+}
+
+h3 {
+    font-size:23px;
 }
 
 /*Centers all the text on the main page*/
@@ -70,9 +80,12 @@ h1 {
 
 /*Centers and resizes all the photos*/
 .photo {
+    border:7px solid black;
+    border-radius:15px;
     display:block;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:50px;
     width:500px;
     height:750px;
 }
