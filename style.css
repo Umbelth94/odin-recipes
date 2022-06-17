@@ -13,7 +13,7 @@ body {
 }
 
 p {
-    font-size:20px;
+    font-size:25px;
     font-family:"Palatino","Goudy Old Style", 'Calibri', Sans-serif;
 }
 
@@ -22,19 +22,34 @@ p {
     text-align: center;
 }
 
+img.britta-gif {
+    border: 14px solid #110101;
+    border-radius: 15px;
+}
+
 /*Creates and styles box for recipe links*/
 #recipes {
     list-style-type: none;
-    border: 3px solid #000404;
+    border: 10px solid #000000;
     border-radius: 15px;
-    background: gray;
+    background: grey;
     padding: 25px;
+    margin: 25px 80px;
 }
 
+/*Changes colors of links before/after being pressed*/
+a:link {
+    color:rgb(0, 0, 0);
+}
+a:visited {
+    color:rgb(255, 255, 255);
+}
 
+/*recipe button links*/
 a.recipe-link{
     display: inline-block;
-    border: 5px double #7cb1b2;
+    background-color: #16d5ec73;
+    border: 5px double #02e2e6;
     border-radius: 15px;
     padding: 15px;
     font-size: 35px;
